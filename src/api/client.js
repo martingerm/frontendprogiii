@@ -1,7 +1,7 @@
 // src/api/client.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/clients'; // Cambia esta URL a la de tu backend
+const API_URL = 'https://backendprogiii.vercel.app/'; // Cambia esta URL a la de tu backend
 
 export const getClients = async () => {
   const response = await axios.get(API_URL);
